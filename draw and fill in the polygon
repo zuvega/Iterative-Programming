@@ -1,0 +1,19 @@
+import turtle
+wn = turtle.Screen()
+alex = turtle.Turtle()
+
+sides = int(input("Enter the number of sides:"))
+Enter the number of sides:4
+length = int(input("Enter the length of the side:"))
+Enter the length of the side:9
+color = input("Enter the color of your polygon:")
+Enter the color of your polygon:blue
+fill_color = input("Enter the fill color:")
+Enter the fill color:red
+
+alex.color(color, fill_color)
+alex.begin_fill()
+for i in range(sides):
+    alex.forward(length)
+    alex.right(360/sides)
+alex.end_fill()
