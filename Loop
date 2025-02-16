@@ -1,0 +1,8 @@
+nums = [12,10,32,3,66,17,42,99,20]
+for i in nums:
+    print(i)
+
+
+nums = [12,10,32,3,66,17,42,99,20]
+for i in nums:
+    print(i, i**2)
