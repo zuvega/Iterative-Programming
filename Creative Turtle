@@ -1,0 +1,10 @@
+import turtle
+wn = turtle.Screen()
+alex = turtle.Turtle()
+
+g = 100
+
+for i in range(8):
+    alex.forward(g)
+    alex.right(135)
+alex.end_fill()
